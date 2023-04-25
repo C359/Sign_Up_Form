@@ -12,45 +12,50 @@
 </head>
 <body>
     <div class="container">
-        <div class="hero"></div>
+        <div class="hero">
+            <div class="hero-text">Defigo</div>
+        </div>
         <div class="info">
             <div class="info-text-top">
-                This is a sign up form! What you are signing up for remains a mystery. Nevertheless why not give it a try. 
+                This is a sign up form! 
+                <br>
+                What you are signing up for remains a mystery.
                 <br
                 ><br> 
-                Try it out
+                Try it out.
             </div>
-            <form class="signup-form">
+            <form id="signup-form-main" class="signup-form" action="URL" method="post">
+                <div class="form-header">Let's get started!</div>
                 <div class="field">
-                    <label for="first-name">First Name</label>
+                    <label for="first-name">FIRST NAME</label>
                     <input type="text" id="first-name" name="first-name">
                 </div>
                 <div class="field">
-                    <label for="last-name">Last Name</label>
+                    <label for="last-name">LAST NAME</label>
                     <input type="text" id="last-name" name="last-name">
                 </div>
                 <div class="field">
-                    <label for="email">Email Address</label>
+                    <label for="email">EMAIL ADDRESS</label>
                     <input type="email" id="email" name="email">
                 </div>
                 <div class="field">
-                    <label for="phone">Phone</label>
+                    <label for="phone">PHONE</label>
                     <input type="tel" id="phone" name="phone">
                 </div>
                 <div class="field">
-                    <label for="password">Password</label>
+                    <label for="password">PASSWORD</label>
                     <input type="password" id="password" name="password">
                 </div>
                 <div class="field">
-                    <label for="confirm-password">Confirm Password</label>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
                     <input type="password" id="confirm-password" name="confirm-password">
                 </div>
             </form>
+
+            <button class="button-create" type="submit" form="signup-form-main">Create Account</button>
+
             <div class="info-text-bottom">
-                This is a sign up form! What you are signing up for remains a mystery. Nevertheless why not give it a try. 
-                <br
-                ><br> 
-                Try it out
+                Already signed up? <a class="link-login" href="URL">log in</a>
             </div>
 
         </div>    
