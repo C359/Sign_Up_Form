@@ -32,6 +32,7 @@ html {
     background:black;
     height: 100vh;
     width: 100vw;
+    font-family: 'Space Grotesk', Impact,'Arial Narrow Bold', sans-serif
   }
 
 
@@ -49,7 +50,45 @@ html {
   }
 
   .info {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
     width: 40vw;
     height: 100vh;
     background-color: white;
+  }
+
+  .info-text-top {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 100px 40px 10px 40px;
+  }
+
+  .signup-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightblue;
+  }
+
+  .info-text-bottom {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 100px 40px 10px 40px;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .field label {
+    width: 200px;
+    margin: 0px 40px;
+  }
+
+  .field input {
+    width: 200px;
+    margin: 0px 40px;
   }
